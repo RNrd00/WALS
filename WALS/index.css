@@ -276,3 +276,29 @@ footer{
     display:block;
     line-height: 60px;
 }
+
+@media(max-width: 768px){
+    .container{
+        width:90%;
+    }
+    
+    .sp-none{
+        display: none;
+    }
+    
+    .Profile-left{
+        width:100%;
+    }
+    
+    .Profile-right{
+        width:100%;
+    }
+    
+    header{
+        height:50px;
+    }
+    
+    .logo{
+        height:50px;
+    }
+}
